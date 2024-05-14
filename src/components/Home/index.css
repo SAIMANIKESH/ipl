@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.ipl-dashboard-view {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.ipl-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipl-logo {
+  width: 50px;
+  height: 70px;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.ipl-team-cards-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

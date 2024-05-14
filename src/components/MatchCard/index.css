@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+.match-card-list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  border-radius: 15px;
+  background-color: #030233;
+  list-style-type: none;
+  margin: 20px;
+  width: 290px;
+  height: 460px;
+}
+
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.competing-team-logo-img {
+  width: 130px;
+  height: 130px;
+}
+
+.text-green {
+  color: #18ed66;
+}
+
+.text-red {
+  color: #e31a1a;
+}

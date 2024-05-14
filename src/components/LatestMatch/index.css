@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.latest-match-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3%;
+  border-radius: 12px;
+  background-color: #030233;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.competing-left-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.competing-team-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 26px;
+}
+
+.info {
+  font-size: 16px;
+}
+
+.competing-team-logo {
+  width: 180px;
+  height: 190px;
+  align-self: center;
+}
+
+.competing-right-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.match-details {
+  font-size: 17px;
+}
+
+.value {
+  font-size: 15px;
+}

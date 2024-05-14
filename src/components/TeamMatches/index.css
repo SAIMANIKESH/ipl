@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.team-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80vw;
+  min-height: 100vh;
+}
+
+.team-details-page {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 3% 3%;
+}
+
+.bg-red {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d);
+}
+
+.bg-blue {
+  background-image: linear-gradient(to bottom, #1702f5, #13418b);
+}
+
+.bg-yellow {
+  background-image: linear-gradient(to bottom, #f7db00, #dedb3c);
+}
+
+.bg-violet {
+  background-image: linear-gradient(to bottom, #13418b, #4f5db0);
+}
+
+.bg-purple {
+  background-image: linear-gradient(to bottom, #5755a7, #4f5db0);
+}
+
+.bg-pink {
+  background-image: linear-gradient(to bottom, #da237b, #400139);
+}
+
+.bg-orange {
+  background-image: linear-gradient(to bottom, #f26d22, #8c4103);
+}
+
+.bg-green {
+  background-image: linear-gradient(to bottom, #18ed66, #064d15);
+}
+
+.banner-img {
+  width: 100%;
+  height: 35%;
+  border-radius: 5px;
+}
+
+.latest-matches-title {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
